@@ -1,6 +1,6 @@
 context:
   name: cherab-nagdis
-  version: "0.1.1"
+  version: "0.2.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/munechika-koyo/cherab_nagdis/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 971aeab0e14aca7906654a5e614b62a2ab940a568c8352d8d009903dc8f5758f
+  sha256: 3b40e89f03b92e7beacd10993850c58042e3278137258ddac3423e7d75dbc102
 
 build:
   skip:

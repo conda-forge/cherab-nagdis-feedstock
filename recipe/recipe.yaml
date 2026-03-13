@@ -18,7 +18,7 @@ build:
     content: ${{ PYTHON }} -m pip install --no-deps --no-build-isolation -vv .
     env:
       SETUPTOOLS_SCM_PRETEND_VERSION: ${{ version }}
-  number: 0
+  number: 1
 
 requirements:
   build:
